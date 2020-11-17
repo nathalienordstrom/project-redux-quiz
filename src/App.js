@@ -8,7 +8,7 @@ import { CurrentQuestion } from 'components/CurrentQuestion'
 const reducer = combineReducers({
   quiz: quiz.reducer
 })
-
+// Test commit
 const store = configureStore({ reducer })
 
 export const App = () => {
